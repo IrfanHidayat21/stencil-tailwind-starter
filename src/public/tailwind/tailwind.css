@@ -1,0 +1,62 @@
+/** Core CSS required for ionic components to work property */
+@import "~@ionic/core/css/core.css";
+
+/** Basic CSS for apps built with Ionic */
+@import "~@ionic/core/css/normalize.css";
+@import "~@ionic/core/css/structure.css";
+@import "~@ionic/core/css/typography.css";
+
+/** Optional CSS utils that can be commented out */
+@import "~@ionic/core/css/padding.css";
+@import "~@ionic/core/css/float-elements.css";
+@import "~@ionic/core/css/text-alignment.css";
+@import "~@ionic/core/css/text-transformation.css";
+@import "~@ionic/core/css/flex-utils.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ion-slide {
+    padding-bottom: 35px;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    --width: 15px !important;
+    --height: 15px !important;
+    background: #38B2AC !important;
+    --background: #38B2AC !important;
+    --bullet-background: #38B2AC !important;
+  
+  }
+  
+  .swiper-pagination-bullet-active {
+      width: 15px !important;
+      height: 15px !important;
+      --width: 15px !important;
+      --height: 15px !important;
+  }
+
+  
+@screen sm {
+
+}
+
+@screen md {
+    
+}
+
+@screen lg {
+    
+}
+
+@screen xl {
+    
+}
+
+@media (min-width: 0px) and (max-width: 640px) {
+
+}
